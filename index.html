@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Taste of Lahore — Ramzan Special Menu</title>
+  <meta name="description" content="Taste of Lahore Ramzan Special Menu" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <div class="container">
+      <img class="logo" src="logo.png" alt="Taste of Lahore logo" />
+      <h1>Taste of Lahore</h1>
+      <p class="subtitle">Ramzan Special Menu</p>
+
+      <!-- OPTIONAL: WhatsApp button (edit phone number) -->
+      <!-- <a class="btn" href="https://wa.me/491234567890" target="_blank" rel="noopener">Order on WhatsApp</a> -->
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Frozen Items</h2>
+
+      <div class="menu-list">
+        <div class="item"><span>Chicken Samosa (12 pcs)</span><span class="price">€10</span></div>
+        <div class="item"><span>Aloo Samosa</span><span class="price">€8</span></div>
+        <div class="item"><span>Spring Roll</span><span class="price">€10</span></div>
+        <div class="item"><span>Croquettes</span><span class="price">€12</span></div>
+        <div class="item"><span>Chicken Kachori (Pack of 4)</span><span class="price">€10</span></div>
+        <div class="item"><span>Shami Kebab</span><span class="price">€15</span></div>
+        <div class="item"><span>Peri Peri Bites</span><span class="price">€12</span></div>
+        <div class="item"><span>Cheesy Bites</span><span class="price">€10</span></div>
+        <div class="item"><span>Chicken Cheese Fingers</span><span class="price">€15</span></div>
+      </div>
+    </section>
+
+    <section class="card highlight">
+      <h2>Ramzan Iftaar Platter <span class="tag">€10</span></h2>
+
+      <p class="muted">Includes:</p>
+      <ul class="bullets">
+        <li>2 rolls</li>
+        <li>2 samosas</li>
+        <li>Pakora (4 pcs)</li>
+        <li>Aloo pakora (4 pcs)</li>
+        <li>Chicken sandwich (2 pcs)</li>
+      </ul>
+
+      <div class="choices">
+        <div class="choice">
+          <h3>Choose 1</h3>
+          <p>Fruit chaat <span class="muted">or</span> Dahi bhallay</p>
+        </div>
+        <div class="choice">
+          <h3>Choose 1 Drink</h3>
+          <p>Lemonade <span class="muted">or</span> Tang</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p class="muted">Add your phone/WhatsApp and address here.</p>
+
+      <div class="contact">
+        <div><strong>Phone:</strong> +358414985825</div>
+        <div><strong>Address:</strong>Melaniemi</div>
+        <div><strong>Hours:</strong>9AM - 9PM</div>
+      </div>
+
+       <a class="btn" href="https://wa.me/358414985825" target="_blank" rel="noopener">Order Now</a>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Taste of Lahore</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
